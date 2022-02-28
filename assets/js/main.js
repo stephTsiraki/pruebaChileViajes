@@ -1,3 +1,4 @@
+//Smooth Scroll, con velocidad 800 milisegundos
 $(document).ready(function ()  {
 
 
@@ -13,10 +14,10 @@ $(document).ready(function ()  {
         )
     })
 })
-//smooth scroll velocidad 800 miliseg 
 
-//tooltip
-// código necesario desde Bootstrap
+
+
+//Tooltip: código necesario desde Bootstrap
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)

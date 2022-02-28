@@ -2,26 +2,33 @@
 html{
     scroll-behavior: auto !important;
 }
+
+
 /* Integración de fuentes*/
 body {
   font-family: "Lato", sans-serif;
   background-color: #000000;
 }
+
 body hr{
 color:#17A2B8;
 }
-/* navbar: fondo transparente + fijar + ajuste ancho viewport + sobreponer a otro elementos*/
+
+
+/* navbar*/
 .navbar {
   background-color: transparent !important;
   position: fixed;
   width: 100vw;
   z-index: 1;
 }
-/*aumentar peso de la fuente */
+
 .navbar-brand {
   font-weight: 700;
 }
-/*  navbar sobre el carousel*/
+
+
+/*Posicionamiento navbar sobre el carousel*/
 .hero-section {
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,27 +39,42 @@ color:#17A2B8;
     position: relative;
     z-index: -1;
 }
+
+
 /*Quienes-Somos*/
 .bg-blue{
     background-color: #17A2B8;
 }
+
+
 /*Destacados*/
 .card-body{
     background-color: #17A2B8;
     text-align: left;
 }
-/*dejar todas las imagenes iguales*/
+
 #Destacados img{
     max-height: 45%;
 }
-/* footer*/
+
+/*Contacto*/
+.contacto-fondo{
+    background-color: #ffffff;
+}
+
+
+/*Footer*/
 #footer{
     background-color: #17A2B8;
 }
+
 #footer a{
     color: #ffffff;
     text-decoration: none;
 }
+
+/*Modal*/
 .modal{
-    background-color: violet;
+    background-color: #000000;
+    font-style: italic;
 }
